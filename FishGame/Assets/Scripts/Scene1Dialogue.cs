@@ -23,6 +23,11 @@ public class Scene1Dialogue : MonoBehaviour {
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
+        public GameObject Choice2a;
+        public GameObject Choice2b;
+        public GameObject Choice3a;
+        public GameObject Choice3b;		
+		
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
 		public GameObject NextScene3Button;
@@ -42,6 +47,11 @@ void Start(){
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
+        Choice2a.SetActive(false);
+        Choice2b.SetActive(false);		
+	    Choice3a.SetActive(false);
+        Choice3b.SetActive(false);	
+		
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
 		NextScene3Button.SetActive(false);
@@ -144,6 +154,7 @@ public void next(){
                 NextScene1Button.SetActive(true);
         }
 
+
        else if (primeInt == 200){
                 Char1name.text = "Fish";
                 Char1speech.text = "but… it’s party time..";
@@ -152,31 +163,139 @@ public void next(){
         }
        else if (primeInt == 201){
                 Char1name.text = "Fish";
-                Char1speech.text = "but… it’s party time..";
+                Char1speech.text = "pretty please...?";
                 // Char2name.text = "";
                 // Char2speech.text = "";
-                // nextButton.SetActive(false);
-                // allowSpace = false;
-                // NextScene2Button.SetActive(true);
+                 nextButton.SetActive(false);
+                 allowSpace = false;
+                Choice2a.SetActive(true); // function Choice2aFunct()
+                Choice2b.SetActive(true); // function Choice2bFunct()
 				}
-       else if (primeInt == 202){
+				
+				
+		//choice #2
+
+      else if (primeInt == 300){
                 Char1name.text = "Fish";
-                Char1speech.text = "....party?";
+                Char1speech.text = "Yay! So glad you changed your mind."; 
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+				    nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene1Button.SetActive(true);
+                NextScene2Button.SetActive(true);
+        }
+       else if (primeInt == 301){
+                Char1name.text = "where should we look first?";
+                Char1speech.text = "";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Come back here! Do not think you can hide from me!";
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene1Button.SetActive(true);
+				NextScene2Button.SetActive(true);
+        }
+
+
+       else if (primeInt == 400){
+                Char1name.text = "Fish";
+                Char1speech.text = "Aw, man. I really thought you could be my friend.";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+        }
+       else if (primeInt == 401){
+                Char1name.text = "Fish";
+                Char1speech.text = "I mean, I have lots of friends...";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+        }
+       else if (primeInt == 402){
+                Char1name.text = "Fish";
+                Char1speech.text = "But I thought you wee special.";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+        }
+       else if (primeInt == 403){
+                Char1name.text = "Fish";
+                Char1speech.text = "...";
                 // Char2name.text = "";
                 // Char2speech.text = "";
-                // nextButton.SetActive(false);
-                // allowSpace = false;
-                // NextScene3Button.SetActive(true);
-				      // SceneManager.LoadScene("End_Lose");
-					  }
-       else if (primeInt == 203){
+                nextButton.SetActive(false);
+                allowSpace = false;
+                Choice3a.SetActive(true); // function Choice2aFunct()
+                Choice3b.SetActive(true); // function Choice2bFunct()
+				
+				}
+
+		
+	//choice #3
+      else if (primeInt == 500){
+                Char1name.text = "Fish";
+                Char1speech.text = "WHEW. I'm so glad!";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+
+        }
+		      else if (primeInt == 501){
+                Char1name.text = "Fish";
+                Char1speech.text = "I mean, only if YOU want to.";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+
+        }
+		      else if (primeInt == 502){
+                Char1name.text = "Fish";
+                Char1speech.text = "Where should we look first?";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+
+        }
+		
+       else if (primeInt == 503){
+                Char1name.text = "";
+                Char1speech.text = "";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Come back here! Do not think you can hide from me!";
+				    nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene1Button.SetActive(true);
+                NextScene2Button.SetActive(true);
+        }
+
+
+       else if (primeInt == 600){
+                Char1name.text = "Fish";
+                Char1speech.text = "but… party time..";
+                // Char2name.text = "Jeda";
+                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+        }
+       else if (primeInt == 601){
+                Char1name.text = "Fish";
+                Char1speech.text = "...";
                 // Char2name.text = "";
                 // Char2speech.text = "";
-                // nextButton.SetActive(false);
-                // allowSpace = false;
+				//instantiate explosion
+				}
+       else if (primeInt == 602){
+                Char1name.text = "";
+                Char1speech.text = "(FISH EXPLODE)";
+                // Char2name.text = "";
+                // Char2speech.text = "";
+			//image of bits of floating fish
+			}
+       else if (primeInt == 603){
+		    Char1name.text = "";
+                Char1speech.text = "";
+                // Char2name.text = "";
+                // Char2speech.text = "";
+                 nextButton.SetActive(false);
+                 allowSpace = false;
                 // NextScene3Button.SetActive(true);
 				      SceneManager.LoadScene("End_Lose");
         }
+		
+	
+	//all important end of next() function bracket:	
      }
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
@@ -203,6 +322,54 @@ public void next(){
                 allowSpace = true;
         }
 
+        public void Choice2aFunct(){
+                Char1name.text = "Fish";
+                Char1speech.text = "Hooray!  You’re my first guest!  Let’s go find some more!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
+                primeInt = 299;
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+        public void Choice2bFunct(){
+                Char1name.text = "Fish";
+                Char1speech.text = "why not? It’ll be so lonely if no one shows up";
+                // Char2name.text = "";
+                // Char2speech.text = "";
+                primeInt = 399;
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+
+        public void Choice3aFunct(){
+                Char1name.text = "Fish";
+                Char1speech.text = "Hooray!  You’re my first guest!  Let’s go find some more!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
+                primeInt = 499;
+                Choice3a.SetActive(false);
+                Choice3b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+        public void Choice3bFunct(){
+                Char1name.text = "Fish";
+                Char1speech.text = "why not? It’ll be so lonely if no one shows up";
+                // Char2name.text = "";
+                // Char2speech.text = "";
+                primeInt = 599;
+                Choice3a.SetActive(false);
+                Choice3b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+
+
+
         public void SceneChange1(){
                SceneManager.LoadScene("Scene2a");
         }
@@ -210,6 +377,6 @@ public void next(){
                 SceneManager.LoadScene("Scene2b");
 				}
         public void SceneChange3(){
-                SceneManager.LoadScene("End_Lose");
+                SceneManager.LoadScene("End_Lose1");
         }
 }
