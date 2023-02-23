@@ -128,8 +128,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Clownfish";
-				Char3speech.text = "Really???";
+				Char3name.text ="Clownfish";
+				Char3speech.text = "Really??";
         }
        else if (primeInt == 101){
                 Char1name.text = "";
@@ -141,9 +141,8 @@ public void next(){
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
-        }
-
-       else if (primeInt == 200){
+		}
+       else if (primeInt == 102){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -151,7 +150,7 @@ public void next(){
 				Char3name.text = "Clownfish";
 				Char3speech.text = "Of course I'll be there!";
         }
-       else if (primeInt == 201){
+       else if (primeInt == 103){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -159,7 +158,7 @@ public void next(){
 				Char3name.text = "";
 				Char3speech.text = "";
 	   }		
-		else if (primeInt == 202){
+		else if (primeInt == 104){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -173,35 +172,26 @@ public void next(){
      
 	 
 	 // ENCOUNTER AFTER CHOICE #2
-       else if (primeInt == 100){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "Clownfish";
-				Char3speech.text = "Oh..";
-        }
-       else if (primeInt == 101){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "Clownfish";
-				Char3speech.text = "You're just like everybody else..";
-                nextButton.SetActive(false);
-                allowSpace = false;
-                NextScene1Button.SetActive(true);
-        }
 
        else if (primeInt == 200){
                 Char1name.text = "";
-                Char1speech.text = "The clownfish solomly swims back into the anemone..";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Clownfish";
-				Char3speech.text = "Of course I'll be there!";
+				Char3speech.text = "You think I'm a joke..  Just like everybody else..";
         }
-       else if (primeInt == 201){
+		
+		       else if (primeInt == 201){
+                Char1name.text = "";
+                Char1speech.text = "The clownfish solomly swimms back into the anemone.";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+	
+	}		
+       else if (primeInt == 202){
                 Char1name.text = "YOU";
                 Char1speech.text = "Guess he's not much of a party animal..";
                 Char2name.text = "";
@@ -209,7 +199,7 @@ public void next(){
 				Char3name.text = "";
 				Char3speech.text = "";
 	   }		
-		else if (primeInt == 202){
+		else if (primeInt == 203){
                 Char1name.text = "";
                 Char1speech.text = "Come on, let's go check out";
                 Char2name.text = "";
@@ -224,8 +214,8 @@ public void next(){
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
         public void Choice1aFunct(){
-                Char1name.text = "YOU";
-                Char1speech.text = "The more the merrier!";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -237,8 +227,8 @@ public void next(){
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "YOU";
-                Char1speech.text = "What's a party without a clown?";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -251,9 +241,9 @@ public void next(){
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene("Scene3a");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene2b");
+                SceneManager.LoadScene("Scene3b");
         }
 }
