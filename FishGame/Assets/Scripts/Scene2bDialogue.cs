@@ -14,9 +14,16 @@ public class Scene2bDialogue : MonoBehaviour {
 		public Text Char3name;
 		public Text Char3speech;
         public GameObject DialogueDisplay;
-        public GameObject ArtChar1;
-       //public GameObject ArtChar1b;
-       //public GameObject ArtChar2;
+		
+		public GameObject ArtChar1a;
+		public GameObject ArtChar1b;
+		public GameObject ArtChar1c;
+		public GameObject ArtChar1d;
+		public GameObject ArtChar1e;
+		public GameObject ArtChar2a;
+		public GameObject ArtChar2b;
+		public GameObject ArtChar2c;
+		
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -30,7 +37,16 @@ public class Scene2bDialogue : MonoBehaviour {
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
         DialogueDisplay.SetActive(false);
-        ArtChar1.SetActive(false);
+		
+        ArtChar1a.SetActive(false);
+		ArtChar1b.SetActive(false);
+		ArtChar1c.SetActive(false);
+		ArtChar1d.SetActive(false);
+		ArtChar1e.SetActive(false); 
+	    ArtChar2a.SetActive(false);
+		ArtChar2b.SetActive(false);
+		ArtChar2c.SetActive(false);
+		
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -57,7 +73,7 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar1.SetActive(true);
+			   ArtChar1c.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -76,6 +92,8 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
+		   	   ArtChar1c.SetActive(false);
+			   ArtChar1a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -84,6 +102,7 @@ public void next(){
 				Char3speech.text = "";
         }
        else if (primeInt == 5){
+		   ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "A clownfish timidly emerges from the anemone...";
                 Char2name.text = "";
@@ -101,6 +120,8 @@ public void next(){
 				Char3speech.text = "W-w-w-whaddya want?";
         }
        else if (primeInt ==7){
+		   ArtChar1a.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -124,6 +145,7 @@ public void next(){
 
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -138,9 +160,7 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "Clownfish";
 				Char3speech.text = "You think I would make the party more merry?";
-                nextButton.SetActive(false);
-                allowSpace = false;
-                NextScene1Button.SetActive(true);
+
 		}
        else if (primeInt == 102){
                 Char1name.text = "";
@@ -167,6 +187,7 @@ public void next(){
 				Char3speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
+				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
         }
      
@@ -174,6 +195,7 @@ public void next(){
 	 // ENCOUNTER AFTER CHOICE #2
 
        else if (primeInt == 200){
+		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -183,6 +205,7 @@ public void next(){
         }
 		
 		       else if (primeInt == 201){
+			ArtChar2c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "The clownfish solomly swimms back into the anemone.";
                 Char2name.text = "";
@@ -208,6 +231,7 @@ public void next(){
 				Char3speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
+				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
         }
      }
