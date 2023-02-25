@@ -79,9 +79,9 @@ public void next(){
                ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "Fish";
-                Char1speech.text = "Wow!  You’re one weeeeird fish!!";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Wakey wakey, human.";
+                Char1speech.text = "Woah!  You are one weeeeird fish!!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
         }
        else if (primeInt ==3){
 		        ArtChar1a.SetActive(false);
@@ -99,12 +99,12 @@ public void next(){
        else if (primeInt == 4){
                 Char1name.text = "";
                 Char1speech.text = "";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "I know I did not hit you that hard.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
         }
        else if (primeInt == 5){
-                Char1name.text = "YOU";
-                Char1speech.text = "Hit me? Why?";
+                Char1name.text = "";
+                Char1speech.text = "";
                 // Char2name.text = "";
                 // Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
@@ -112,20 +112,20 @@ public void next(){
        else if (primeInt == 6){
                 Char1name.text = "";
                 Char1speech.text = "";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "I am searching for a fugitive. Ragu Fahn.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
         }
        else if (primeInt ==7){
-                Char1name.text = "YOU";
-                Char1speech.text = "Why do you think I know anything?";
+                Char1name.text = "";
+                Char1speech.text = "";
                 // Char2name.text = "";
                 // Char2speech.text = "";
         }
        else if (primeInt == 8){
                 Char1name.text = "";
                 Char1speech.text = "";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Do not play the stupid. You will take me to him.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
@@ -137,8 +137,8 @@ public void next(){
        else if (primeInt == 100){
                 Char1name.text = "Fish";
                 Char1speech.text = "Okay, where should we look first?";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
 				    nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -147,8 +147,8 @@ public void next(){
        else if (primeInt == 101){
                 Char1name.text = "";
                 Char1speech.text = "";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Come back here! Do not think you can hide from me!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -157,13 +157,13 @@ public void next(){
 
        else if (primeInt == 200){
                 Char1name.text = "Fish";
-                Char1speech.text = "but… it’s party time..";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+                Char1speech.text = "It'll be fun!";
+                // Char2name.text = "";
+                // Char2speech.text = "D";
         }
        else if (primeInt == 201){
                 Char1name.text = "Fish";
-                Char1speech.text = "pretty please...?";
+                Char1speech.text = "Pretty please?  You wont regret it!";
                 // Char2name.text = "";
                 // Char2speech.text = "";
                  nextButton.SetActive(false);
@@ -178,8 +178,8 @@ public void next(){
       else if (primeInt == 300){
                 Char1name.text = "Fish";
                 Char1speech.text = "Yay! So glad you changed your mind."; 
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
 				    nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -188,8 +188,8 @@ public void next(){
        else if (primeInt == 301){
                 Char1name.text = "where should we look first?";
                 Char1speech.text = "";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Come back here! Do not think you can hide from me!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -199,25 +199,25 @@ public void next(){
 
        else if (primeInt == 400){
                 Char1name.text = "Fish";
-                Char1speech.text = "Aw, man. I really thought you could be my friend.";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+                Char1speech.text = "There will be bumpin music!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
         }
        else if (primeInt == 401){
                 Char1name.text = "Fish";
-                Char1speech.text = "I mean, I have lots of friends...";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+                Char1speech.text = "And snacks!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
         }
        else if (primeInt == 402){
                 Char1name.text = "Fish";
-                Char1speech.text = "But I thought you wee special.";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
+                Char1speech.text = "And friendly friends all around!!";
+                // Char2name.text = "";
+                // Char2speech.text = "";
         }
        else if (primeInt == 403){
                 Char1name.text = "Fish";
-                Char1speech.text = "...";
+                Char1speech.text = "Whatcha say?";
                 // Char2name.text = "";
                 // Char2speech.text = "";
                 nextButton.SetActive(false);
@@ -232,22 +232,22 @@ public void next(){
       else if (primeInt == 500){
                 Char1name.text = "Fish";
                 Char1speech.text = "WHEW. I'm so glad!";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
 
         }
 		      else if (primeInt == 501){
                 Char1name.text = "Fish";
                 Char1speech.text = "I mean, only if YOU want to.";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
 
         }
 		      else if (primeInt == 502){
                 Char1name.text = "Fish";
                 Char1speech.text = "Where should we look first?";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Then you are no use to me, and must be silenced.";
+                // Char2name.text = "";
+                // Char2speech.text = "";
 
         }
 		
@@ -265,13 +265,13 @@ public void next(){
 
        else if (primeInt == 600){
                 Char1name.text = "Fish";
-                Char1speech.text = "but… party time..";
+                Char1speech.text = "And..  And...  It's party time...";
                 // Char2name.text = "Jeda";
                 // Char2speech.text = "Do not think you can fool me, human. Where will we find him?";
         }
        else if (primeInt == 601){
                 Char1name.text = "Fish";
-                Char1speech.text = "...";
+                Char1speech.text = "Party...";
                 // Char2name.text = "";
                 // Char2speech.text = "";
 				//instantiate explosion
@@ -312,7 +312,7 @@ public void next(){
         }
         public void Choice1bFunct(){
                 Char1name.text = "Fish";
-                Char1speech.text = "why not? It’ll be so lonely if no one shows up";
+                Char1speech.text = "Whaaat?  You don't mean that right?  You wanna come right?";
                 // Char2name.text = "";
                 // Char2speech.text = "";
                 primeInt = 199;
@@ -335,7 +335,7 @@ public void next(){
         }
         public void Choice2bFunct(){
                 Char1name.text = "Fish";
-                Char1speech.text = "why not? It’ll be so lonely if no one shows up";
+                Char1speech.text = "Come on now, it'll be really really fun!";
                 // Char2name.text = "";
                 // Char2speech.text = "";
                 primeInt = 399;
@@ -358,7 +358,7 @@ public void next(){
         }
         public void Choice3bFunct(){
                 Char1name.text = "Fish";
-                Char1speech.text = "why not? It’ll be so lonely if no one shows up";
+                Char1speech.text = "But why not?.. It’ll be oh so lonely if no one shows up";
                 // Char2name.text = "";
                 // Char2speech.text = "";
                 primeInt = 599;
