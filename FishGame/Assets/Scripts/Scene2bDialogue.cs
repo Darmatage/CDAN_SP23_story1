@@ -145,6 +145,7 @@ public void next(){
 
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   ArtChar2a.SetActive(false);
 		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -205,6 +206,7 @@ public void next(){
         }
 		
 		       else if (primeInt == 201){
+			ArtChar2a.SetActive(false);
 			ArtChar2c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "The clownfish solomly swimms back into the anemone.";
