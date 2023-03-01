@@ -7,7 +7,8 @@ using UnityEngine.Audio;
 
 public class Scene1Dialogue : MonoBehaviour {
         public int primeInt = 1;         // This integer drives game progress!
-        public Text Char1name;
+       public Animator anim;
+	   public Text Char1name;
         public Text Char1speech;
         // public Text Char2name;
         // public Text Char2speech;
@@ -19,7 +20,7 @@ public class Scene1Dialogue : MonoBehaviour {
 		public GameObject ArtChar1c;
        public GameObject ArtChar1d;
 	   public GameObject ArtChar1e;
-       //public GameObject ArtChar2;
+       public GameObject ArtCharBOOM;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -37,13 +38,16 @@ public class Scene1Dialogue : MonoBehaviour {
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
-void Start(){  
+void Start(){
+	anim = ArtCharBOOM.GetComponent<Animator>();
+	
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		 ArtChar1b.SetActive(false);
 		  ArtChar1c.SetActive(false);
 		   ArtChar1d.SetActive(false);
 		    ArtChar1e.SetActive(false);
+			ArtCharBOOM.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -264,6 +268,11 @@ public void next(){
 
 
        else if (primeInt == 600){
+		   ArtChar1a.SetActive(false);
+		   ArtChar1b.SetActive(false);
+		   ArtChar1c.SetActive(false);
+		   ArtChar1d.SetActive(false);
+		   ArtChar1e.SetActive(true);
                 Char1name.text = "Fish";
                 Char1speech.text = "And..  And...  It's party time...";
                 // Char2name.text = "Jeda";
@@ -277,6 +286,10 @@ public void next(){
 				//instantiate explosion
 				}
        else if (primeInt == 602){
+		   ArtChar1e.SetActive(false);
+		   ArtCharBOOM.SetActive(true);
+		   anim.SetTrigger("Boom");
+		   
                 Char1name.text = "";
                 Char1speech.text = "(FISH EXPLODE)";
                 // Char2name.text = "";
