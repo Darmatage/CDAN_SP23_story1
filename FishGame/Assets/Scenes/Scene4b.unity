@@ -216,7 +216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_AnchorMax.x
@@ -312,7 +312,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: Scene Change 2
+      value: Let's check the reef!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
@@ -719,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_AnchorMax.x
@@ -815,7 +819,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: Story Change 1
+      value: Fish, we don't have time
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
@@ -946,7 +954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939926632908765324, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8939926632908765324, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1148,6 +1156,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05d12f0516ef4754a914671a5569233c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1379511294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379511297}
+  - component: {fileID: 1379511296}
+  - component: {fileID: 1379511295}
+  m_Layer: 5
+  m_Name: ImageChar2d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1379511295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379511294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: aac07afc5798e964fb93764be764a9d6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1379511296
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379511294}
+  m_CullTransparentMesh: 1
+--- !u!224 &1379511297
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379511294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1513583929}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1280, y: 720}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1513583925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1334,7 @@ RectTransform:
   - {fileID: 1519709129}
   - {fileID: 1564699164}
   - {fileID: 651881368}
+  - {fileID: 1379511297}
   - {fileID: 940728783}
   - {fileID: 1481250625313386726}
   - {fileID: 6581717543890750333}
@@ -1291,6 +1376,7 @@ MonoBehaviour:
   ArtChar2a: {fileID: 1519709128}
   ArtChar2b: {fileID: 1564699163}
   ArtChar2c: {fileID: 651881367}
+  ArtChar2d: {fileID: 1379511294}
   ArtBG1: {fileID: 1005909519}
   Choice1a: {fileID: 1026024574}
   Choice1b: {fileID: 1707773549}
@@ -1355,7 +1441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aac07afc5798e964fb93764be764a9d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9925577e58086744d83e5cb32d01fa94, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1466,7 +1552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1562,7 +1648,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: Story Change 2
+      value: Let's learn a trick or two!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
@@ -1757,7 +1847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5938018138484711066, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5938018138484711066, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1880,7 +1970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6577133200901886793, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6577133200901886793, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2030,7 +2120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2126,7 +2216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: Scene Change 1
+      value: How bout the sea floor?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
