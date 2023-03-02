@@ -11,12 +11,19 @@ public class Scene5aDialogue : MonoBehaviour {
         public Text Char1speech;
         public Text Char2name;
         public Text Char2speech;
-       //public Text Char3name;
-       //public Text Char3speech;
+		public Text Char3name;
+		public Text Char3speech;
         public GameObject DialogueDisplay;
-        public GameObject ArtChar1a;
-       //public GameObject ArtChar1b;
-       //public GameObject ArtChar2;
+
+		public GameObject ArtChar1a;
+		public GameObject ArtChar1b;
+		public GameObject ArtChar1c;
+		public GameObject ArtChar1d;
+		public GameObject ArtChar1e;
+		public GameObject ArtChar2a;
+		public GameObject ArtChar2b;
+		public GameObject ArtChar2c;
+
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
