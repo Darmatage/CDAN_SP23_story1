@@ -98,15 +98,15 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
+				Char3name.text = "Coral";
+				Char3speech.text = "Party? You want me to go to a party!? Do you have eyes!?";
         }
        else if (primeInt == 5){
 		   ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Yes! They're on my face. I grew them myself.";
 				Char3name.text = "";
 				Char3speech.text = "";
                 //gameHandler.AddPlayerStat(1);
