@@ -667,7 +667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 168ea7fb595badc4898a403325b94a6a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c05aaad95fb70a14990e8d26c8537c89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1253,6 +1253,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71e00234fd265d74295c5ad6aa0d3379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  primeInt: 1
+  Fish: {fileID: 0}
+  Char1speech: {fileID: 0}
+  Worm: {fileID: 0}
+  Char2speech: {fileID: 0}
+  DialogueDisplay: {fileID: 0}
+  ArtChar1a: {fileID: 0}
+  ArtBG1: {fileID: 0}
+  Choice1a: {fileID: 0}
+  Choice1b: {fileID: 0}
+  NextScene1Button: {fileID: 0}
+  NextScene2Button: {fileID: 0}
+  nextButton: {fileID: 0}
 --- !u!1 &1519709128
 GameObject:
   m_ObjectHideFlags: 0

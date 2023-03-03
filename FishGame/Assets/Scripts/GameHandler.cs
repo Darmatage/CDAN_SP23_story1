@@ -7,8 +7,13 @@ using UnityEngine.Audio;
 
 public class GameHandler : MonoBehaviour {
 
-        public static int playerStat;
-
+        public static int friends;
+        public static bool crabFriend = false;
+		public static bool coralFriend = false;
+		public static bool sharkFriend = false;
+		public static bool mantarayFriend = false;
+		public static bool pufferfishFriend = false;
+		
 
         public static bool GameisPaused = false;
         public GameObject pauseMenuUI;
@@ -58,14 +63,14 @@ public class GameHandler : MonoBehaviour {
                 volumeLevel = sliderValue;
         }
 
-        public void UpdatePlayerStat(int amount){
-                playerStat += amount;
-                Debug.Log("Current Player Stat = " + playerStat);
-        }
+        // public void UpdatePlayerStat(int amount){
+                // playerStat += amount;
+                // Debug.Log("Current Player Stat = " + playerStat);
+        // }
 
-        public int CheckPlayerStat(){
-                return playerStat;
-        }
+        // public int CheckPlayerStat(){
+                // return playerStat;
+        // }
 
         public void StartGame(){
                 SceneManager.LoadScene("Scene1");
