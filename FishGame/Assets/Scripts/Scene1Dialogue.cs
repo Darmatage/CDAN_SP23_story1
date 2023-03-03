@@ -258,8 +258,8 @@ public void next(){
        else if (primeInt == 503){
                 Char1name.text = "";
                 Char1speech.text = "";
-                // Char2name.text = "Jeda";
-                // Char2speech.text = "Come back here! Do not think you can hide from me!";
+                // Char2name.text = "";
+                // Char2speech.text = ";
 				    nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -286,26 +286,25 @@ public void next(){
 				//instantiate explosion
 				}
        else if (primeInt == 602){
+		   DialogueDisplay.SetActive(false);
 		   ArtChar1e.SetActive(false);
 		   ArtCharBOOM.SetActive(true);
 		   anim.SetTrigger("Boom");
-		   
-                Char1name.text = "";
-                Char1speech.text = "(FISH EXPLODE)";
-                // Char2name.text = "";
-                // Char2speech.text = "";
+		SceneManager.LoadScene("End_Lose");
 			//image of bits of floating fish
-			}
-       else if (primeInt == 603){
-		    Char1name.text = "";
+
+	   }
+
+      else if (primeInt == 603){
+                Char1name.text = "";
                 Char1speech.text = "";
+				nextButton.SetActive(false);
+				NextScene3Button.SetActive(true);
+		SceneManager.LoadScene("End_Lose");
                 // Char2name.text = "";
                 // Char2speech.text = "";
-                 nextButton.SetActive(false);
-                 allowSpace = false;
-                // NextScene3Button.SetActive(true);
-				      SceneManager.LoadScene("End_Lose");
         }
+		
 		
 	
 	//all important end of next() function bracket:	
