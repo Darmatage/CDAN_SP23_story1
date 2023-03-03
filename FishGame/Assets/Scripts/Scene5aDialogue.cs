@@ -84,11 +84,11 @@ public void next(){
        else if (primeInt ==3){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "CRAB";
+                Char2name.text = "Crab";
                 Char2speech.text = "What are you doing here in my terrain?  Pinch pinch..";
         }
        else if (primeInt == 4){
-                Char1name.text = "FISH";
+                Char1name.text = "Fish";
                 Char1speech.text = "We have a proposition for you!";
                 Char2name.text = "";
                 Char2speech.text = "";

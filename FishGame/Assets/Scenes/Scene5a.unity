@@ -312,13 +312,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: Shorter is better!
+      value: Let's take the shortcut!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
 --- !u!224 &196965988 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+  m_PrefabInstance: {fileID: 196965987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &196965989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4924883358547872094, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
   m_PrefabInstance: {fileID: 196965987}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &525385364
@@ -810,13 +819,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: "Please don't \npinch anyone!"
+      value: I dont think anybody wants to get pinched!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
 --- !u!224 &1026024573 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+  m_PrefabInstance: {fileID: 1026024572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1026024574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4924883358547872094, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
   m_PrefabInstance: {fileID: 1026024572}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1249639781
@@ -1268,27 +1286,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
-  Char1name: {fileID: 0}
-  Char1speech: {fileID: 0}
-  Char2name: {fileID: 0}
-  Char2speech: {fileID: 0}
-  Char3name: {fileID: 0}
-  Char3speech: {fileID: 0}
-  DialogueDisplay: {fileID: 0}
-  ArtChar1a: {fileID: 0}
-  ArtChar1b: {fileID: 0}
-  ArtChar1c: {fileID: 0}
-  ArtChar1d: {fileID: 0}
-  ArtChar1e: {fileID: 0}
-  ArtChar2a: {fileID: 0}
-  ArtChar2b: {fileID: 0}
-  ArtChar2c: {fileID: 0}
-  ArtBG1: {fileID: 0}
-  Choice1a: {fileID: 0}
-  Choice1b: {fileID: 0}
-  NextScene1Button: {fileID: 0}
-  NextScene2Button: {fileID: 0}
-  nextButton: {fileID: 0}
+  Char1name: {fileID: 6577133201305449101}
+  Char1speech: {fileID: 6577133201305449100}
+  Char2name: {fileID: 6577133201305449099}
+  Char2speech: {fileID: 6577133201305449098}
+  Char3name: {fileID: 6577133201305449097}
+  Char3speech: {fileID: 6577133201305449096}
+  DialogueDisplay: {fileID: 6577133201305449095}
+  ArtChar1a: {fileID: 667032230}
+  ArtChar1b: {fileID: 1249639781}
+  ArtChar1c: {fileID: 927767279}
+  ArtChar1d: {fileID: 1897477477}
+  ArtChar1e: {fileID: 15655100}
+  ArtChar2a: {fileID: 1519709128}
+  ArtChar2b: {fileID: 1564699163}
+  ArtChar2c: {fileID: 651881367}
+  ArtBG1: {fileID: 1005909519}
+  Choice1a: {fileID: 1026024574}
+  Choice1b: {fileID: 1707773549}
+  NextScene1Button: {fileID: 6581717543890750334}
+  NextScene2Button: {fileID: 196965989}
+  nextButton: {fileID: 1481250625313386727}
 --- !u!1 &1519709128
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,13 +1572,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: "What do you \nlike to pinch?"
+      value: What sorts of things do you like to pinch?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
 --- !u!224 &1707773548 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+  m_PrefabInstance: {fileID: 1707773547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1707773549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4924883358547872094, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
   m_PrefabInstance: {fileID: 1707773547}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1897477477
@@ -1841,6 +1868,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5938018138484711066, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
   m_PrefabInstance: {fileID: 1481250625313386725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1481250625313386727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3253223037794420354, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
+  m_PrefabInstance: {fileID: 1481250625313386725}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6577133201305449094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1938,6 +1970,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+--- !u!1 &6577133201305449095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6577133200901886792, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6577133201305449096 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5517535034283991786, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6577133201305449097 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6647619764084417051, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6577133201305449098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6577133201513071977, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6577133201305449099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6577133202242608237, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6577133201305449100 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6577133201089160792, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6577133201305449101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6577133202762696103, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6581717543890750332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2051,12 +2154,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
-      value: I like scenery!
+      value: Let's take the scenic route!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
 --- !u!224 &6581717543890750333 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+  m_PrefabInstance: {fileID: 6581717543890750332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6581717543890750334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4924883358547872094, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
   m_PrefabInstance: {fileID: 6581717543890750332}
   m_PrefabAsset: {fileID: 0}

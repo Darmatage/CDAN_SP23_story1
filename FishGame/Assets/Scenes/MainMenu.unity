@@ -1088,7 +1088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A game about eating your friends in the ecosystem under the sea
+  m_Text: 'This party will be the most bodacious party of all!  '
 --- !u!222 &2083772464
 CanvasRenderer:
   m_ObjectHideFlags: 0
