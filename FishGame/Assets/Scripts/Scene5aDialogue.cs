@@ -82,6 +82,7 @@ public void next(){
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
+		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Crab";
@@ -94,6 +95,8 @@ public void next(){
                 Char2speech.text = "";
         }
        else if (primeInt == 5){
+		   ArtChar1a.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -129,6 +132,8 @@ public void next(){
 		}
 				
 				else if (primeInt ==9){
+				ArtChar2c.SetActive(false);
+				ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -137,6 +142,8 @@ public void next(){
                 Char3speech.text = "Will there be things to pinch there?";
 		}		
 				else if (primeInt ==10){
+				ArtChar1b.SetActive(false);
+				ArtChar1e.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -182,6 +189,8 @@ public void next(){
 
 	// after option 1a
        else if (primeInt == 20){
+		   ArtChar2a.SetActive(false);
+		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -189,13 +198,14 @@ public void next(){
 				Char3name.text = "Crab";
                 Char3speech.text = "What?  No pinchy?  Then that's no party at all!";
         }
+		
        else if (primeInt == 21){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Crab";
-                Char3speech.text = "I will not be attending, I have better things to pinch around here anyways..";
+                Char3speech.text = "Leave me, I will not be attending, I've got things to pinch around here..";
                 
         }
 		
@@ -203,22 +213,35 @@ public void next(){
        else if (primeInt == 22){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Char3name.text = "Crab";
-                Char3speech.text = "I will not be attending, I have better things to pinch around here anyways..";
+                Char2name.text = "Fish";
+                Char2speech.text = "Alright..  If you say so..";
+                Char3name.text = "";
+                Char3speech.text = "";
+				
+	   }
                 
-        }
-		
-       else if (primeInt == 23){
+       	 else if (primeInt == 23){
                 Char1name.text = "";
                 Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Actually, it's probably just about time for the party!";
+                Char3name.text = "";
+                Char3speech.text = "";
+                
+  
+        }
+		
+       else if (primeInt == 24){
+				Char1name.text = "Fish";
+                Char1speech.text = "Should we take the scenic route there?  Or my shortcut?";
                 Char2name.text = "";
                 Char2speech.text = "";
-                Char3name.text = "Crab";
-                Char3speech.text = "I will not be attending, I have better things to pinch around here anyways..";
-                
+                nextButton.SetActive(false);
+                allowSpace = false;
+				NextScene1Button.SetActive(true);
+                NextScene2Button.SetActive(true);
         }
+
 		
 		
 		// after option 1b
@@ -228,7 +251,7 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Crab";
-                Char3speech.text = "I will not be attending, I have better things to pinch around here anyways..";
+                Char3speech.text = "I like to pinch all sorts of things!";
                 
         }
 		
@@ -239,45 +262,34 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Crab";
-                Char3speech.text = "I will not be attending, I have better things to pinch around here anyways..";
+                Char3speech.text = "Fins..  Toes..  Bottlecaps..  Seaweed...";
                 
         }
 		
        else if (primeInt == 32){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Char3name.text = "Crab";
-                Char3speech.text = "I will not be attending, I have better things to pinch around here anyways..";
-                primeInt = 49;
-        }
-		
-		
-		//shared scene end
-		 else if (primeInt == 50){
-                Char1name.text = "FISH";
-                Char1speech.text = "Tiem to party";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char2name.text = "Fihs";
+                Char2speech.text = "Seaweed?  We can do that!";
                 Char3name.text = "";
                 Char3speech.text = "";
                 
         }
 		
-		else if (primeInt == 51){
-                Char1name.text = "FISH";
-                Char1speech.text = "How to get there?";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Char3name.text = "";
-                Char3speech.text = "";
-                
-        }
-		
-       else if (primeInt == 52){
+       	 else if (primeInt == 33){
                 Char1name.text = "";
                 Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Actually, it's probably just about time for the party!";
+                Char3name.text = "";
+                Char3speech.text = "";
+                
+  
+        }
+		
+       else if (primeInt == 35){
+				Char1name.text = "Fish";
+                Char1speech.text = "Should we take the scenic route there?  Or my shortcut?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(false);
@@ -291,8 +303,8 @@ public void next(){
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
         public void Choice1aFunct(){
-                Char1name.text = "FISH";
-                Char1speech.text = "Yeah, what my friend said. Please don't pinch anybody";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 19;
@@ -302,8 +314,8 @@ public void next(){
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "FISH";
-                Char1speech.text = "Are you sure you want to encourage the pinching?";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 29;
