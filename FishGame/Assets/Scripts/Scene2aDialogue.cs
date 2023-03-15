@@ -113,6 +113,8 @@ public void next(){
                 Char2speech.text = "Yes! They're on my face. I grew them myself.";
 				Char3name.text = "";
 				Char3speech.text = "";
+				Choice1a.SetActive (true);
+				Choice1b.SetActive (true);
                 //gameHandler.AddPlayerStat(1);
       
         }
