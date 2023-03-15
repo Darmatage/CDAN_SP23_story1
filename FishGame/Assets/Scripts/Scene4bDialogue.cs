@@ -143,31 +143,41 @@ public void next(){
 
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-                Char1name.text = "Fish";
+             
+
+			 Char1name.text = "Fish";
                 Char1speech.text = "I really did admire your moves!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 101){
-                Char1name.text = "";
+               ArtChar2c.SetActive(false);
+				ArtChar2b.SetActive(true);
+			  Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Dolphin";
                 Char2speech.text = "It didn’t sound like you did…";
         }
 	   else if (primeInt == 102){
-                Char1name.text = "Fish";
+               ArtChar2b.SetActive(false);
+			   ArtChar2a.SetActive(true);
+			 Char1name.text = "Fish";
                 Char1speech.text = " Oh but I did! I’ve never seen anything as majestic as your performance!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 	   else if (primeInt == 103){
-                Char1name.text = "";
+               ArtChar2a.SetActive(false);
+			   ArtChar2b.SetActive(true);
+			   Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Dolphin";
                 Char2speech.text = "Wait! I uh…I wouldn’t mind going to your party…";
         }
 	   else if (primeInt == 104){
-                Char1name.text = "Fish";
+                ArtChar2b.SetActive(false);
+			   ArtChar2a.SetActive(true);
+				Char1name.text = "Fish";
                 Char1speech.text = "Really!? Neat-o! See ya at my party then!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -176,7 +186,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Dolphin";
-                Char2speech.text = "Goobye, fish!";
+                Char2speech.text = "Goobye, fish.";
         }
 	   
 	   else if (primeInt == 106){
