@@ -117,7 +117,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "You come to my party, and havve a super rad time!";
+                Char2speech.text = "You come to my party, and have a super rad time!";
 				Char3name.text = "";
                 Char3speech.text = "";
 	   }
@@ -267,6 +267,8 @@ public void next(){
         }
 		
        else if (primeInt == 32){
+		   ArtChar1e.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fihs";
