@@ -75,6 +75,7 @@ public class Scene4aDialogue : MonoBehaviour {
         primeInt = primeInt + 1;
         if (primeInt == 1){
 			// AudioSource.Play();
+			DialogueDisplay.SetActive(true);
         }
         else if (primeInt == 2){
 			ArtChar1a.SetActive(true);
