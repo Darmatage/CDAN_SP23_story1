@@ -38,6 +38,7 @@ public class Scene2aDialogue : MonoBehaviour {
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
+
         DialogueDisplay.SetActive(false);
 		
         ArtChar1a.SetActive(false);
@@ -60,6 +61,7 @@ void Start(){
 
      // Find the gameHandler:
      // gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+	 
    }
 
 void Update(){         // use spacebar as Next button
@@ -75,9 +77,11 @@ public void next(){
         primeInt = primeInt + 1;
         if (primeInt == 1){
                 // AudioSource.Play();
+		DialogueDisplay.SetActive(true);
+		
         }
         else if (primeInt == 2){
-			   ArtChar1c.SetActive(true);
+			   ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "You've arrived at the coral. It's beautiful. But there don't seem to be any fish aroun-";
@@ -87,6 +91,8 @@ public void next(){
 				Char3speech.text = "";
         }
        else if (primeInt ==3){
+				ArtChar1a.SetActive(false);
+				ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -96,21 +102,29 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-		   	   ArtChar1c.SetActive(false);
-			   ArtChar1a.SetActive(true);
+		   		ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Coral";
-				Char3speech.text = "Party? You want me to go to a party!? Do you have eyes!?";
+				Char3speech.text = "Party? You want me to go to a party!?";
+	   }
+				
+	   else if (primeInt == 5){
+		   		ArtChar2a.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Coral";
+				Char3speech.text = "Are you blind?!  Don't you have eyes??";
         }
-       else if (primeInt == 5){
-		   ArtChar2a.SetActive(true);
+       else if (primeInt == 6){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Yes! They're on my face. I grew them myself.";
+                Char2speech.text = "Yes! They're on my face. I grew them all by myself.";
 				Char3name.text = "";
 				Char3speech.text = "";
 				Choice1a.SetActive (true);
@@ -129,35 +143,50 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text ="Coral";
 				Char3speech.text = "A ROCK?? A ROCK??!? AAAAAAAH";
-        }
-       else if (primeInt == 21){
+	
+	    }
+	   else if (primeInt == 21){
+		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
-                Char1speech.text = "All coral in the reef completely lose color. You have caused the death of the ocean. You die. Of guilt.";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
+				Char3name.text ="Coral";
+            SceneManager.LoadScene("End_Lose3");
 
 		}
 
 	 
 	 // after choice 1b
-       else if (primeInt == 30){
+       else if (primeInt == 38){
 		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Coral";
-				Char3speech.text = "I'm sure it WOULD be IF I COULD MOVE!";
-        
-		
+				Char3speech.text = "I'm sure i'd go IF I COULD MOVE!";
+				
         }
+		else if (primeInt == 39){
+				Choice2a.SetActive (true);
+				DialogueDisplay.SetActive(false);
+				nextButton.SetActive(false);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text ="";
+				Char3speech.text = "";
+		}
 
 	 // after choice 2a
        else if (primeInt == 40){
+		   Choice2a.SetActive (false);
+		   nextButton.SetActive(true);
+		   DialogueDisplay.SetActive(true);
 		   ArtChar2a.SetActive(false);
-		   ArtChar2b.SetActive(true);
+		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -179,33 +208,17 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Here, take this while we go find more guests!";
+                Char2speech.text = "Wait here while we go find more guests!";
 				Char3name.text = "";
 				Char3speech.text = "";
-                nextButton.SetActive(false);
-                allowSpace = false;
-				NextScene1Button.SetActive(true);
-                NextScene2Button.SetActive(true);
-        }
-     
-	 else if (primeInt == 42){
-                Char1name.text = "";
-                Char1speech.text = "Fish puts his very small party hat on the coral, who all smile.";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
-                nextButton.SetActive(false);
-                allowSpace = false;
-				NextScene1Button.SetActive(true);
-                NextScene2Button.SetActive(true);
+        
         }
 		
-		else if (primeInt == 42){
+		else if (primeInt == 43){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Let's find more friends!";
+                Char2speech.text = "Where should we go next?";
 				Char3name.text = "";
 				Char3speech.text = "";
                 nextButton.SetActive(false);
@@ -214,17 +227,7 @@ public void next(){
                 NextScene2Button.SetActive(true);
         }
 	 
-	 // after choice 2b
-       else if (primeInt == 50){
-		   ArtChar2c.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Fish";
-                Char2speech.text = "Sorry coral dudes";
-				Char3name.text = "";
-				Char3speech.text = "";
-        }
-		
+
 		   
 		
 	// final scene selection
@@ -279,6 +282,7 @@ public void next(){
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
+				
         }
         public void Choice1bFunct(){
                 Char1name.text = "";
@@ -287,11 +291,12 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "Coral";
 				Char3speech.text = "I’m sure it WOULD be IF I COULD MOVE";
-                primeInt = 29;
+                primeInt = 38;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
+
         }
 
         public void Choice2aFunct(){
@@ -300,8 +305,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Coral";
-				Char3speech.text = "A ROCK?? A ROCK??!? AAAAAAAH";
+				Char3name.text = "";
+				Char3speech.text = "";
                 primeInt = 39;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -313,8 +318,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Coral";
-				Char3speech.text = "I’m sure it WOULD be IF I COULD MOVE";
+				Char3name.text = "";
+				Char3speech.text = "";
                 primeInt = 49;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
