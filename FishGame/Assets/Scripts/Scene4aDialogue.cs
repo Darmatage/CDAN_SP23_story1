@@ -7,7 +7,6 @@ using UnityEngine.Audio;
 
 public class Scene4aDialogue : MonoBehaviour {
 	public int primeInt = 1;         // This integer drives game progress!
-	public Animator anim;
 	public Text Char1name;
 	public Text Char1speech;
 	public Text Char2name;
@@ -20,7 +19,6 @@ public class Scene4aDialogue : MonoBehaviour {
 	public GameObject ArtChar1c;
 	public GameObject ArtChar1d;
 	public GameObject ArtChar1e;
-	public GameObject ArtCharBOOM;
 	public GameObject ArtBG1;
 	public GameObject Choice1a;
 	public GameObject Choice1b;
@@ -39,7 +37,6 @@ public class Scene4aDialogue : MonoBehaviour {
 
 	// initial visibility settings. Any new images or buttons need to also be SetActive(false);
 	void Start(){
-		anim = ArtCharBOOM.GetComponent<Animator>();
 	
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
@@ -47,7 +44,6 @@ public class Scene4aDialogue : MonoBehaviour {
 		ArtChar1c.SetActive(false);
 		ArtChar1d.SetActive(false);
 		ArtChar1e.SetActive(false);
-		ArtCharBOOM.SetActive(false);
         ArtBG1.SetActive(true);
 		
         Choice1a.SetActive(false);
@@ -83,133 +79,124 @@ public class Scene4aDialogue : MonoBehaviour {
         else if (primeInt == 2){
 			ArtChar1a.SetActive(true);
 			DialogueDisplay.SetActive(true);
-		   // Char1name.text = "";
-		   // Char1speech.text = "!";
-			 Char2name.text = "Fish";
-			 Char2speech.text = "WOWIE! Bet a lot of human people died here! Let's go inside!";
-			//	Char3name.text = "";
-			//	Char3speech.text = "";
+		    Char1name.text = "";
+			Char1speech.text = "!";
+			Char2name.text = "Fish";
+			Char2speech.text = "WOWIE! Bet a lot of human people died here! Let's go inside!";
+			Char3name.text = "";
+			Char3speech.text = "";
         }
 		else if (primeInt == 8){
                 Char1name.text = "";
                 Char1speech.text = "You go inside the shipwreck.";
-                // Char2name.text = "";
-                // Char2speech.text = "";
-                // Turn off "Next" button, turn on "Choice" buttons
-				//	Char3name.text = "";
-			//	Char3speech.text = "";
-                nextButton.SetActive(false);
-                allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+
+                
 		}
        else if (primeInt ==3){
 		        ArtChar1a.SetActive(false);
 		        ArtChar1b.SetActive(true);
-             //   Char1name.text = "";
-            //    Char1speech.text = "";
-                 Char2name.text = "Fish";
-                 Char2speech.text = "Wow, I'm totally blind in here";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
-                //gameHandler.AddPlayerStat(1);
-				      nextButton.SetActive(false);
-                allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+				Char1name.text = "";
+				Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Wow, I'm totally blind in here";
+				Char3name.text = "";
+				Char3speech.text = "";
+				nextButton.SetActive(false);
+
+
         }
        else if (primeInt == 4){
-                //Char1name.text = "";
-                //Char1speech.text = "";
-				//Char2name.text = "";
-				//Char2speech.text = "";
-                 Char3name.text = "Faceless Voice";
-                 Char3speech.text = "Hi Totally Blind in Here, I'm Dad!";
+				Char1name.text = "";
+                Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+                Char3name.text = "Faceless Voice";
+                Char3speech.text = "Hi Totally Blind in Here, I'm Dad!";
         }
        else if (primeInt == 5){
-              //  Char1name.text = "";
-               // Char1speech.text = "";
+				Char1name.text = "";
+				Char1speech.text = "";
                 Char2name.text = "Fish";
                 Char2speech.text = "D-Dad?";
-				//	Char3name.text = "";
-			//	Char3speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
-               // Char1name.text = "";
-                //Char1speech.text = "";
-				//Char2name.text = "";
-				//Char2speech.text = "";
-                 Char3name.text = "Dad";
-                 Char3speech.text = "Hey there kiddo.";
+                Char1name.text = "";
+                Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+                Char3name.text = "Dad";
+                Char3speech.text = "Hey there kiddo.";
         }
        else if (primeInt ==7){
-               // Char1name.text = "";
-               // Char1speech.text = "";
-			   //Char2name.text = "";
-				//Char2speech.text = "";
+				Char1name.text = "";
+				Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
                  Char3name.text = "Dad";
                  Char3speech.text = "I know we sort of left off on a bad note...";
         }
        else if (primeInt == 8){
-             //   Char1name.text = "";
-               // Char1speech.text = "";
-                 Char2name.text = "Fish";
-                 Char2speech.text = "A bad note?";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
+				Char1name.text = "";
+				Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "A bad note?";
+				Char3name.text = "";
+				Char3speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+
         }
 		else if (primeInt == 8){
-             //   Char1name.text = "Fish";
-              //  Char1speech.text = "A BAD NOTE?";
-                 Char2name.text = "Fish";
-                 Char2speech.text = "A BAD NOTE?";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
+				Char1name.text = "Fish";
+				Char1speech.text = "A BAD NOTE?";
+                Char2name.text = "Fish";
+                Char2speech.text = "A BAD NOTE?";
+				Char3name.text = "";
+				Char3speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+
 		}
 		else if (primeInt == 8){
-               // Char1name.text = "";
-               // Char1speech.text = "";
-			   //Char2name.text = "";
-				//Char2speech.text = "";
-                 Char3name.text = "Dad";
-                 Char3speech.text = "Son-";
+				Char1name.text = "";
+				Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+                Char3name.text = "Dad";
+                Char3speech.text = "Son-";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+
 		}
 		else if (primeInt == 8){
-             //   Char1name.text = "";
-              //  Char1speech.text = "";
-                 Char2name.text = "Fish";
-                 Char2speech.text = "No- It wasn't just a bad note...";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
+				Char1name.text = "";
+				Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "No- It wasn't just a bad note...";
+				Char3name.text = "";
+				Char3speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+
 		}
 		else if (primeInt == 8){
                 Char1name.text = "";
                 Char1speech.text = "... This is really awkward.";
-			   //Char2name.text = "";
-				//Char2speech.text = "";
-               //  Char3name.text = "";
-             //    Char3speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+                Char3name.text = "";
+				Char3speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
@@ -218,24 +205,24 @@ public class Scene4aDialogue : MonoBehaviour {
 		}
 		// ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-            //    Char1name.text = "";
-              //  Char1speech.text = "";
-                 Char2name.text = "Fish";
-                 Char2speech.text = "Yeah... I'd like that.";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
+				Char1name.text = "";
+				Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Yeah... I'd like that.";
+				Char3name.text = "";
+				Char3speech.text = "";
 				    nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
         }
        else if (primeInt == 101){
-              //  Char1name.text = "";
-              //  Char1speech.text = "";
-              //   Char2name.text = "";
-              //   Char2speech.text = "";
-				 Char3name.text = "Dad";
-                 Char3speech.text = "But Fish-";
+				Char1name.text = "";
+				Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+				Char3name.text = "Dad";
+                Char3speech.text = "But Fish-";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -243,24 +230,24 @@ public class Scene4aDialogue : MonoBehaviour {
 
 
        else if (primeInt == 200){
-              //  Char1name.text = "";
-              //  Char1speech.text = "";
-               Char2name.text = "Fish";
-                 Char2speech.text = "We can talk about this later. We have a party to plan.";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
+              Char1name.text = "";
+              Char1speech.text = "";
+              Char2name.text = "Fish";
+              Char2speech.text = "We can talk about this later. We have a party to plan.";
+			  Char3name.text = "";
+			  Char3speech.text = "";
         }
 				
 				
 		//choice #2
 
       else if (primeInt == 300){
-             //   Char1name.text = "";
-              //  Char1speech.text = ""; 
-                 Char2name.text = "Fish";
-                 Char2speech.text = "Right... This is my dad... Or so I thought.";
-				 //	Char3name.text = "";
-			//	Char3speech.text = "";
+             Char1name.text = "";
+             Char1speech.text = ""; 
+             Char2name.text = "Fish";
+             Char2speech.text = "Right... This is my dad... Or so I thought.";
+			 Char3name.text = "";
+			 Char3speech.text = "";
 				    nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -383,10 +370,10 @@ public class Scene4aDialogue : MonoBehaviour {
                 Choice1b.SetActive(true); // function Choice1bFunct()
 		}
 		else if (primeInt == 8){
-              //  Char1name.text = "";
-              //  Char1speech.text = "";
-			  //   Char2name.text = "";
-              //   Char2speech.text = "";
+              Char1name.text = "";
+              Char1speech.text = "";
+			  Char2name.text = "";
+              Char2speech.text = "";
                  Char3name.text = "Dad";
                  Char3speech.text = "My name isn't John...";
                 // Turn off "Next" button, turn on "Choice" buttons
@@ -404,8 +391,5 @@ public class Scene4aDialogue : MonoBehaviour {
 	}
 	void SceneChange2(){
 		SceneManager.LoadScene("Scene5b");
-	}
-	void SceneChange3(){
-		SceneManager.LoadScene("End_Lose1");
 	}
 }
