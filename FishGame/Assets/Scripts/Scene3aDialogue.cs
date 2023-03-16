@@ -215,9 +215,9 @@ public void next(){
 				Char3name.text = "";
                 Char3speech.text = "";
                 nextButton.SetActive(false);
-                allowSpace = false;
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
+                allowSpace = false;
         }
 // ENCOUNTER AFTER CHOICE #2A
 else if (primeInt == 300){
@@ -263,9 +263,9 @@ else if (primeInt == 300){
 				Char3name.text = "";
                 Char3speech.text = "";
                 nextButton.SetActive(false);
-                allowSpace = false;
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
+                allowSpace = false;
         }
 // ENCOUNTER AFTER CHOICE #2B
 else if (primeInt == 400){
@@ -307,9 +307,9 @@ else if (primeInt == 400){
 				Char3name.text = "";
                 Char3speech.text = "";
                 nextButton.SetActive(false);
-                allowSpace = false;
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
+                allowSpace = false;
         }
 
       //Please do NOT delete this MOST HOLY bracket that ends the next() function:
@@ -371,9 +371,9 @@ else if (primeInt == 400){
                 Choice2a.SetActive(false);
                 Choice2b.SetActive(false);
                 nextButton.SetActive(false);
-                allowSpace = true;
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
+				allowSpace = true;
         }
 
 
