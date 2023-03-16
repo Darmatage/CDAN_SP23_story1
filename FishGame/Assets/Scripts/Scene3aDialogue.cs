@@ -36,6 +36,9 @@ public class Scene3aDialogue : MonoBehaviour {
         public GameHandler gameHandler;
        //public AudioSource audioSource;
         private bool allowSpace = true;
+		public static bool sharkFriend = false;
+		public static int friends;
+
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
@@ -198,6 +201,8 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "Shark";
                 Char3speech.text = "AND I YOU.";
+				sharkFriend = true;
+				friends = friends+1;
         }
 
        else if (primeInt == 203){
@@ -244,6 +249,8 @@ else if (primeInt == 300){
                 Char2speech.text = "";
 				Char3name.text = "Shark";
                 Char3speech.text = "AND I YOU.";
+				sharkFriend = true;
+				friends = friends+1;
         }
 
                else if (primeInt == 303){
@@ -288,6 +295,8 @@ else if (primeInt == 400){
                 Char2speech.text = "";
 				Char3name.text = "Shark";
                 Char3speech.text = "AND I YOU.";
+				sharkFriend = true;
+				friends = friends+1;
         }
 
                else if (primeInt == 403){
