@@ -697,7 +697,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU'RE DEAD
+  m_Text: FISH DIED
 --- !u!222 &1342039594
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -861,7 +861,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The dolphin has killed you by suffocation
+  m_Text: The dolphin has killed Fish by suffocation
 --- !u!222 &1977051874
 CanvasRenderer:
   m_ObjectHideFlags: 0
