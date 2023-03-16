@@ -520,7 +520,7 @@ PrefabInstance:
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SceneChange1
@@ -912,7 +912,7 @@ PrefabInstance:
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Choice1bFunct
@@ -1123,7 +1123,7 @@ PrefabInstance:
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SceneChange2
@@ -1258,7 +1258,7 @@ PrefabInstance:
     - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: next
@@ -1381,7 +1381,7 @@ PrefabInstance:
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Choice1aFunct
@@ -1751,7 +1751,7 @@ PrefabInstance:
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Choice2aFunct
@@ -1804,7 +1804,7 @@ GameObject:
   - component: {fileID: 1548295952}
   - component: {fileID: 1548295951}
   - component: {fileID: 1548295950}
-  - component: {fileID: 1548295949}
+  - component: {fileID: 1548295954}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1812,42 +1812,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1548295949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548295948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d35a062e437eab549b610690a4f9ea21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  primeInt: 1
-  Char1name: {fileID: 924799024}
-  Char1speech: {fileID: 924799023}
-  Char2name: {fileID: 924799022}
-  Char2speech: {fileID: 924799021}
-  Char3name: {fileID: 924799020}
-  Char3speech: {fileID: 924799019}
-  DialogueDisplay: {fileID: 924799017}
-  ArtChar1a: {fileID: 1989696405}
-  ArtChar1b: {fileID: 0}
-  ArtChar1c: {fileID: 0}
-  ArtChar1d: {fileID: 0}
-  ArtChar1e: {fileID: 0}
-  ArtChar2a: {fileID: 420278230}
-  ArtChar2b: {fileID: 1556831715}
-  ArtChar2c: {fileID: 0}
-  ArtBG1: {fileID: 2065629287}
-  Choice1a: {fileID: 816697997}
-  Choice1b: {fileID: 1176018758}
-  Choice2a: {fileID: 1445305264}
-  Choice2b: {fileID: 1790816513}
-  NextScene1Button: {fileID: 1240983181}
-  NextScene2Button: {fileID: 980765454}
-  nextButton: {fileID: 1182751612}
 --- !u!114 &1548295950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,6 +1908,43 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1548295954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548295948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60a35347094224499fe165d475bc66f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  primeInt: 1
+  Char1name: {fileID: 924799024}
+  Char1speech: {fileID: 924799023}
+  Char2name: {fileID: 924799022}
+  Char2speech: {fileID: 924799021}
+  Char3name: {fileID: 924799020}
+  Char3speech: {fileID: 924799019}
+  DialogueDisplay: {fileID: 924799017}
+  ArtChar1a: {fileID: 0}
+  ArtChar1b: {fileID: 0}
+  ArtChar1c: {fileID: 0}
+  ArtChar1d: {fileID: 0}
+  ArtChar1e: {fileID: 0}
+  ArtBG1: {fileID: 0}
+  Choice1a: {fileID: 1240983181}
+  Choice1b: {fileID: 980765454}
+  Choice2a: {fileID: 1445305264}
+  Choice2b: {fileID: 1790816513}
+  Choice3a: {fileID: 0}
+  Choice3b: {fileID: 0}
+  NextScene1Button: {fileID: 816697997}
+  NextScene2Button: {fileID: 1176018758}
+  NextScene3Button: {fileID: 0}
+  nextButton: {fileID: 1182751612}
+  gameHandler: {fileID: 1302158728}
 --- !u!1 &1556831715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,7 +2115,7 @@ PrefabInstance:
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1548295949}
+      objectReference: {fileID: 0}
     - target: {fileID: 3985929946912215476, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Choice2bFunct
