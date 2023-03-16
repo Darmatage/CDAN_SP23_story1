@@ -82,7 +82,7 @@ public void next(){
         }
        else if (primeInt ==3){
 				ArtChar1a.SetActive(false);
-				ArtChar1b.SetActive(true);
+				ArtChar1c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "You go inside the shipwreck";
                 Char2name.text = "";
@@ -92,7 +92,8 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-		   		ArtChar2a.SetActive(true);
+		   		ArtChar1a.SetActive(true);
+				ArtChar1c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -111,6 +112,8 @@ public void next(){
 				Char3speech.text = "Hi Totally Blind in Here, I’m Dad!";
         }
        else if (primeInt == 6){
+				ArtChar1b.SetActive(true);
+				ArtChar2a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -120,6 +123,7 @@ public void next(){
 				
 				}
        else if (primeInt == 6){
+				ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -138,6 +142,7 @@ public void next(){
 				
 				}
        else if (primeInt == 6){
+				ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -156,6 +161,7 @@ public void next(){
 				
 				}
        else if (primeInt == 6){
+				ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -165,6 +171,7 @@ public void next(){
 				
 				}
        else if (primeInt == 6){
+				ArtChar1c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -189,7 +196,7 @@ public void next(){
 	 // after choice 1a
        else if (primeInt == 20){
 		   ArtChar2a.SetActive(false);
-		   ArtChar2b.SetActive(true);
+		   ArtChar1a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -208,6 +215,7 @@ public void next(){
 				
 				}
        else if (primeInt == 6){
+				ArtChar1c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
