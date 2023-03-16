@@ -18,11 +18,8 @@ public class Scene4aDialogue : MonoBehaviour {
 		public GameObject ArtChar1a;
 		public GameObject ArtChar1b;
 		public GameObject ArtChar1c;
-		public GameObject ArtChar1d;
-		public GameObject ArtChar1e;
 		public GameObject ArtChar2a;
 		public GameObject ArtChar2b;
-		public GameObject ArtChar2c;
 		
         public GameObject ArtBG1;
         public GameObject Choice1a;
@@ -42,11 +39,8 @@ void Start(){
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);
 		ArtChar1c.SetActive(false);
-		ArtChar1d.SetActive(false);
-		ArtChar1e.SetActive(false); 
 	    ArtChar2a.SetActive(false);
 		ArtChar2b.SetActive(false);
-		ArtChar2c.SetActive(false);
 		
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
@@ -227,7 +221,7 @@ public void next(){
 	 
 	 // after choice 1b
        else if (primeInt == 38){
-		   ArtChar2c.SetActive(true);
+		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -353,7 +347,7 @@ public void next(){
 		
 	// final scene selection
        else if (primeInt == 60){
-		   ArtChar2c.SetActive(true);
+		   ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -364,7 +358,7 @@ public void next(){
 		
 		 else if (primeInt == 61){
 			ArtChar2a.SetActive(false);
-			ArtChar2c.SetActive(false);
+			ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -386,9 +380,9 @@ public void next(){
         public void Choice1aFunct(){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "Fish";
-				Char3name.text = "Yeah... I'd like that.";
+                Char2name.text = "Fish";
+                Char2speech.text = "Yeah... I'd like that.";
+				Char3name.text = "";
 				Char3speech.text = "";
                 primeInt = 19;
                 Choice1a.SetActive(false);
