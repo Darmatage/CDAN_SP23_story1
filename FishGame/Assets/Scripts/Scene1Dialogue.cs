@@ -290,7 +290,7 @@ public void next(){
 		   ArtChar1e.SetActive(false);
 		   ArtCharBOOM.SetActive(true);
 		   anim.SetTrigger("Boom");
-		SceneManager.LoadScene("End_Lose");
+
 			//image of bits of floating fish
 
 	   }
@@ -299,8 +299,8 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
 				nextButton.SetActive(false);
-				NextScene3Button.SetActive(true);
-		SceneManager.LoadScene("End_Lose");
+				//NextScene3Button.SetActive(true);
+		SceneManager.LoadScene("End_Lose1");
                 // Char2name.text = "";
                 // Char2speech.text = "";
         }

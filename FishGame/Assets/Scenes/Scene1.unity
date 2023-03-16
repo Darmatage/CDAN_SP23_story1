@@ -596,6 +596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonSceneChange3
       objectReference: {fileID: 0}
+    - target: {fileID: 4924883358547872094, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
       value: Wait what?
