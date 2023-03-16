@@ -323,6 +323,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: PAUSEMENU
       objectReference: {fileID: 0}
+    - target: {fileID: 8939926633422168085, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939926633422168085, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939926633422168085, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939926633835655563, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939926633835655563, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f648caf5a915b5d4f818e06785c5b63c, type: 3}
 --- !u!1 &497102590 stripped
@@ -648,11 +668,15 @@ MonoBehaviour:
     m_LineSpacing: 1.5
   m_Text: 'Aly French
 
-    Ashley Salguero
+    Ashly Salguero
 
     Katie Forgarty
 
-    AshlyDow'
+    Ashley Dow
+
+
+    (Triple
+    A and K!)'
 --- !u!222 &1977051874
 CanvasRenderer:
   m_ObjectHideFlags: 0
