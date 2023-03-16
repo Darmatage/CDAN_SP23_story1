@@ -1278,7 +1278,7 @@ MonoBehaviour:
   NextScene1Button: {fileID: 6581717543890750334}
   NextScene2Button: {fileID: 196965989}
   nextButton: {fileID: 1481250625313386727}
-  gameHandler: {fileID: 0}
+  gameHandler: {fileID: 1270191411}
 --- !u!1 &1519709128
 GameObject:
   m_ObjectHideFlags: 0
