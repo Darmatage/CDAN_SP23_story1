@@ -36,11 +36,21 @@ public class Scene3aDialogue : MonoBehaviour {
         public GameHandler gameHandler;
        //public AudioSource audioSource;
         private bool allowSpace = true;
+		public static bool sharkFriend = false;
+		public static int friends;
+
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
+		ArtChar1b.SetActive(false);
+		ArtChar1c.SetActive(false);
+		ArtChar1d.SetActive(false);
+		ArtChar1e.SetActive(false);
+		ArtChar2a.SetActive(false);
+		ArtChar2b.SetActive(false);
+		ArtChar2c.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -80,6 +90,8 @@ public void next(){
                 Char3speech.text = "";
         }
        else if (primeInt ==3){
+		       ArtChar1a.SetActive(false);
+		       ArtChar1d.SetActive(true);
                 Char1name.text = "Fish";
                 Char1speech.text = "ANYONE WANNA COME TO MY PARTY?!";
                 Char2name.text = "";
@@ -106,6 +118,8 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
+		       ArtChar1d.SetActive(false);
+		       ArtChar1a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -122,6 +136,7 @@ public void next(){
                 Char3speech.text = "A PARTY?";
         }
 		else if (primeInt ==8){
+		       ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "oH fUCc it's a  S H A R K";
                 Char2name.text = "";
@@ -160,6 +175,8 @@ public void next(){
         }
 // ENCOUNTER AFTER CHOICE #1B
        else if (primeInt == 200){
+		        ArtChar2a.SetActive(false);
+		        ArtChar2b.SetActive(true);
 		        Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 Char1name.text = "";
@@ -184,9 +201,13 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "Shark";
                 Char3speech.text = "AND I YOU.";
+				sharkFriend = true;
+				friends = friends+1;
         }
 
        else if (primeInt == 203){
+		        ArtChar1a.SetActive(false);
+		        ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -200,6 +221,8 @@ public void next(){
         }
 // ENCOUNTER AFTER CHOICE #2A
 else if (primeInt == 300){
+	           ArtChar2a.SetActive(false);
+		       ArtChar2b.SetActive(true);
 		        Choice2a.SetActive(false);
                 Choice2b.SetActive(false);
                 Char1name.text = "";
@@ -210,6 +233,8 @@ else if (primeInt == 300){
                 Char3speech.text = "THAT IS QUITE ALL RIGHT LITTLE ONE. I WILL MOST DEFINITELY BE THERE FOR THE OCCASION.";
         }
 		       else if (primeInt == 301){
+				ArtChar1e.SetActive(false);
+		        ArtChar1a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -224,9 +249,13 @@ else if (primeInt == 300){
                 Char2speech.text = "";
 				Char3name.text = "Shark";
                 Char3speech.text = "AND I YOU.";
+				sharkFriend = true;
+				friends = friends+1;
         }
 
                else if (primeInt == 303){
+			    ArtChar1a.SetActive(false);
+		        ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -240,6 +269,8 @@ else if (primeInt == 300){
         }
 // ENCOUNTER AFTER CHOICE #2B
 else if (primeInt == 400){
+	            ArtChar2a.SetActive(false);
+		        ArtChar2b.SetActive(true);
 		        Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 Char1name.text = "";
@@ -264,6 +295,8 @@ else if (primeInt == 400){
                 Char2speech.text = "";
 				Char3name.text = "Shark";
                 Char3speech.text = "AND I YOU.";
+				sharkFriend = true;
+				friends = friends+1;
         }
 
                else if (primeInt == 403){
@@ -284,6 +317,8 @@ else if (primeInt == 400){
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
         public void Choice1aFunct(){
+			   ArtChar1a.SetActive(false);
+		       ArtChar1e.SetActive(true);
                 Char1speech.text = "";
                 Char2name.text = "Fish";
                 Char2speech.text = "What do you mean?";
@@ -323,6 +358,9 @@ else if (primeInt == 400){
                 allowSpace = true;
         }
         public void Choice2bFunct(){
+			   ArtChar1e.SetActive(false);
+		       ArtChar1d.SetActive(true);
+			   ArtChar2a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -332,7 +370,7 @@ else if (primeInt == 400){
                 primeInt = 399;
                 Choice2a.SetActive(false);
                 Choice2b.SetActive(false);
-                nextButton.SetActive(true);
+                nextButton.SetActive(false);
                 allowSpace = true;
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
