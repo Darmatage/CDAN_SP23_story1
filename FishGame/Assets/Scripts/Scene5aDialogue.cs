@@ -328,9 +328,9 @@ public void next(){
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene6a");
+               SceneManager.LoadScene("Scene5b");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene6b");
+                SceneManager.LoadScene("Scene6");
         }
 }
