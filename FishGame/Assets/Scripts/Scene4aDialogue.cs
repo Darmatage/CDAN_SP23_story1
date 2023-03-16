@@ -214,8 +214,9 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
-                Char2speech.text = "Dad";
-				Char3name.text ="But Fish-";
+                Char2speech.text = "";
+				Char3name.text = "Dad";
+				Char3speech.text = "But Fish-";
 				
 				}
        else if (primeInt == 22){
@@ -226,6 +227,8 @@ public void next(){
                 Char2speech.text = "We can talk about this later. We have a party to plan.";
 				Char3name.text = "";
 				Char3speech.text = "";
+				NextScene1Button.SetActive(true);
+                NextScene2Button.SetActive(true);
             
 
 		}
@@ -243,8 +246,6 @@ public void next(){
 				
         }
 		else if (primeInt == 39){
-				DialogueDisplay.SetActive(false);
-				nextButton.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -254,6 +255,8 @@ public void next(){
 		}
 		
        else if (primeInt == 40){
+				ArtChar2a.SetActive(true);
+				ArtChar1c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -290,6 +293,8 @@ public void next(){
 				
 				}
        else if (primeInt == 44){
+				ArtChar1b.SetActive(true);
+				ArtChar2a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -299,6 +304,8 @@ public void next(){
 				
 				}
        else if (primeInt == 45){
+				ArtChar1b.SetActive(false);
+				ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -308,6 +315,8 @@ public void next(){
 				
 				}
        else if (primeInt == 46){
+				ArtChar1b.SetActive(true);
+				ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -317,6 +326,8 @@ public void next(){
 				
 				}
        else if (primeInt == 47){
+				ArtChar1b.SetActive(false);
+				ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -326,6 +337,8 @@ public void next(){
 				
 				}
        else if (primeInt == 48){
+				ArtChar1c.SetActive(true);
+				ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -344,6 +357,8 @@ public void next(){
 				
 				}
        else if (primeInt == 50){
+				ArtChar1b.SetActive(false);
+				ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -360,10 +375,10 @@ public void next(){
 	// final scene selection
        else if (primeInt == 60){
 		   ArtChar2a.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Fish";
-                Char2speech.text = "How about the seafloor?";
+                Char1name.text = "You";
+                Char1speech.text = "How about the seafloor?";
+                Char2name.text = "";
+                Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
         }
@@ -371,17 +386,28 @@ public void next(){
 		 else if (primeInt == 61){
 			ArtChar2a.SetActive(false);
 			ArtChar2b.SetActive(false);
+                Char1name.text = "You";
+                Char1speech.text = "Let's check out the reef!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		 }
+				
+		else if (primeInt == 61){
+			ArtChar2a.SetActive(false);
+			ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Fish";
-                Char2speech.text = "Let's check out the reef!";
+                Char2name.text = "";
+                Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
                 nextButton.SetActive(false);
-                allowSpace = false;
+                allowSpace = (false);
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
-        }
+		}
 		
 		
 		

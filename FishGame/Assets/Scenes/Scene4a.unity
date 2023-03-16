@@ -640,6 +640,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1548295953}
     m_Modifications:
+    - target: {fileID: 5517535034283991786, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517535034283991786, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 6577133200901886792, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_Name
       value: DIALOGUE_DISPLAY
@@ -731,6 +739,22 @@ PrefabInstance:
     - target: {fileID: 6577133200901886793, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6577133201089160792, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6577133201089160792, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6577133201513071977, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6577133201513071977, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6577133202242608237, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_Text
@@ -866,6 +890,14 @@ PrefabInstance:
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
       value: What exactly happened between you two?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
@@ -1348,6 +1380,14 @@ PrefabInstance:
     - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
       propertyPath: m_Text
       value: Hey Fish, how about we go for a swim?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787232273766836649, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
