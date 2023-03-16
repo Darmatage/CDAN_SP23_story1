@@ -1196,16 +1196,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1548295954}
     - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: next
       objectReference: {fileID: 0}
     - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Scene2aDialogue, Assembly-CSharp
+      value: Scene4aDialogue, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Scene4aDialogue.Next
       objectReference: {fileID: 0}
     - target: {fileID: 6324998755496635842, guid: 42e08797052d83b4fa0054e093e295f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1724,11 +1736,8 @@ MonoBehaviour:
   ArtChar1a: {fileID: 1989696405}
   ArtChar1b: {fileID: 206739093}
   ArtChar1c: {fileID: 845277888}
-  ArtChar1d: {fileID: 845277888}
-  ArtChar1e: {fileID: 206739093}
   ArtChar2a: {fileID: 420278230}
   ArtChar2b: {fileID: 1556831715}
-  ArtChar2c: {fileID: 1556831715}
   ArtBG1: {fileID: 2065629287}
   Choice1a: {fileID: 2130629806}
   Choice1b: {fileID: 1011041188}
