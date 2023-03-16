@@ -34,7 +34,7 @@ public class Scene1Dialogue : MonoBehaviour {
 		public GameObject NextScene3Button;
         public GameObject nextButton;
        public GameHandler gameHandler;
-       //public AudioSource audioSource;
+       public AudioSource SFX_FishExplosion;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -289,6 +289,7 @@ public void next(){
 		   DialogueDisplay.SetActive(false);
 		   ArtChar1e.SetActive(false);
 		   ArtCharBOOM.SetActive(true);
+		   SFX_FishExplosion.Play();
 		   anim.SetTrigger("Boom");
 
 			//image of bits of floating fish
@@ -296,7 +297,8 @@ public void next(){
 	   }
 
       else if (primeInt == 603){
-                Char1name.text = "";
+                SFX_FishExplosion.Stop();
+				Char1name.text = "";
                 Char1speech.text = "";
 				nextButton.SetActive(false);
 				//NextScene3Button.SetActive(true);
