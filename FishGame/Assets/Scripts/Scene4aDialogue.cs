@@ -122,7 +122,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 7){
 				ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -132,7 +132,7 @@ public void next(){
 				Char3speech.text = "Hey there kiddo.";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 8){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -141,8 +141,9 @@ public void next(){
 				Char3speech.text = "I know we sort of left things off on a bad note...";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 9){
 				ArtChar1b.SetActive(true);
+				ArtChar2a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -151,7 +152,9 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 10){
+				ArtChar1b.SetActive(false);
+				ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -160,7 +163,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 11){
 				ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -170,8 +173,9 @@ public void next(){
 				Char3speech.text = "Son-";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 12){
 				ArtChar1c.SetActive(true);
+				ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -180,7 +184,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 13){
                 Char1name.text = "";
                 Char1speech.text = "... This is really awkward";
                 Char2name.text = "";
@@ -214,7 +218,7 @@ public void next(){
 				Char3name.text ="But Fish-";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 22){
 				ArtChar1c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -249,7 +253,7 @@ public void next(){
 				Char3speech.text = "";
 		}
 		
-       else if (primeInt == 6){
+       else if (primeInt == 40){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -258,7 +262,7 @@ public void next(){
 				Char3speech.text = "Yes, Fish is adopted, but that doesn't make us any less of a family!";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 41){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -267,7 +271,7 @@ public void next(){
 				Char3speech.text = "When I rescued your little egg from that murderous annemmm- anememem- ana-";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 42){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -276,7 +280,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 43){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -285,7 +289,7 @@ public void next(){
 				Char3speech.text = "Yes! When I saved you I promised to love and protect you for the rest of my life. You really are my son Fish.";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 44){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -294,7 +298,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 45){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -303,7 +307,7 @@ public void next(){
 				Char3speech.text = "His mustache was very convincing!";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 46){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -312,7 +316,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 47){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -321,7 +325,7 @@ public void next(){
 				Char3speech.text = "Fish I- Well I- How could you-";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 48){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -330,7 +334,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 49){
                 Char1name.text = "You";
                 Char1speech.text = "Yes, please get me out of here...";
                 Char2name.text = "";
@@ -339,7 +343,7 @@ public void next(){
 				Char3speech.text = "";
 				
 				}
-       else if (primeInt == 6){
+       else if (primeInt == 50){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -392,7 +396,7 @@ public void next(){
                 Char2speech.text = "Yeah... I'd like that.";
 				Char3name.text = "";
 				Char3speech.text = "";
-                primeInt = 19;
+                primeInt = 20;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
