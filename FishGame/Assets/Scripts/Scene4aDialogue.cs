@@ -83,8 +83,8 @@ public void next(){
        else if (primeInt ==3){
 				ArtChar1a.SetActive(false);
 				ArtChar1c.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "You go inside the shipwreck";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*You go inside the shipwreck*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -186,12 +186,13 @@ public void next(){
 				
 				}
        else if (primeInt == 13){
-                Char1name.text = "";
-                Char1speech.text = "... This is really awkward";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*... This is really awkward*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
+				nextButton.SetActive(false);
 				Choice1a.SetActive (true);
 				Choice1b.SetActive (true);
                 //gameHandler.AddPlayerStat(1);
@@ -225,9 +226,10 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "We can talk about this later. We have a party to plan.";
+                Char2speech.text = "We can talk about this later. We have a party to plan. Seafloor or reef?";
 				Char3name.text = "";
 				Char3speech.text = "";
+				nextButton.SetActive(false);
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
             
@@ -348,14 +350,14 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Come on friend, parties are no place for this sort of treachery and betrayal.";
+                Char2speech.text = "Come on friend, parties are no place for this sort of treachery and betrayal. To the seafloor or reef?";
 				Char3name.text = "";
 				Char3speech.text = "";
 				
 				}
        else if (primeInt == 49){
-                Char1name.text = "You";
-                Char1speech.text = "Yes, please get me out of here...";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*the air seems tense.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -371,6 +373,7 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "Dad";
 				Char3speech.text = "My name isn't John...";
+				nextButton.SetActive(false);
 				NextScene1Button.SetActive(true);
                 NextScene2Button.SetActive(true);
         }
