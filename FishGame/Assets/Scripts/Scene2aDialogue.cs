@@ -218,7 +218,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Where should we go next?";
+                Char2speech.text = "Where should we go next? The caves or shiny thing in the distance!";
 				Char3name.text = "";
 				Char3speech.text = "";
                 nextButton.SetActive(false);
