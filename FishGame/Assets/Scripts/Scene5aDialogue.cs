@@ -76,23 +76,27 @@ public void next(){
         else if (primeInt == 2){
                ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "FISH";
-                Char1speech.text = "We've reached the bottom..  Well well well, who is this?";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "We've reached the bottom..  Well well well, who is this?";
         }
        else if (primeInt ==3){
 		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Crab";
-                Char2speech.text = "What are you doing here in my terrain?  Pinch pinch..";
-        }
-       else if (primeInt == 4){
-                Char1name.text = "Fish";
-                Char1speech.text = "We have a proposition for you!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "Crab";
+                Char3speech.text = "What are you doing here in my terrain?  Pinch pinch..";
+        }
+       else if (primeInt == 4){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "We have a proposition for you!";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 5){
 		   ArtChar1a.SetActive(false);
@@ -165,21 +169,23 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Crab";
-                Char3speech.text = "Pinch pinch pinch..";
+                Char3speech.text = "Pinch pinch pinch!!";
 		}
 				else if (primeInt ==13){
-                Char1name.text = "";
-                Char1speech.text = "He clashes his claws together.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*He clashes his claws together.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
         }
        else if (primeInt == 14){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*It seems he likes to pinch things..*";
                 Char2name.text = "";
-                Char2speech.text = "It seems he likes to pinch things..";
+                Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
@@ -189,23 +195,22 @@ public void next(){
 
 	// after option 1a
        else if (primeInt == 20){
-		   ArtChar2a.SetActive(false);
-		   ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Crab";
-                Char3speech.text = "What?  No pinchy?  Then that's no party at all!";
+                Char3speech.text = "Leave me, I will not be attending, I've got things to pinch around here..";
         }
 		
        else if (primeInt == 21){
-                Char1name.text = "";
-                Char1speech.text = "";
+		        ArtChar2c.SetActive(false);
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*The crab walks away...pinching away.*";
                 Char2name.text = "";
                 Char2speech.text = "";
-                Char3name.text = "Crab";
-                Char3speech.text = "Leave me, I will not be attending, I've got things to pinch around here..";
+                Char3name.text = "";
+                Char3speech.text = "";
                 
         }
 		
@@ -221,26 +226,21 @@ public void next(){
 	   }
                 
        	 else if (primeInt == 23){
+			 ArtChar1e.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
                 Char2speech.text = "Actually, it's probably just about time for the party!";
                 Char3name.text = "";
                 Char3speech.text = "";
-                
-  
-        }
-		
-       else if (primeInt == 24){
-				Char1name.text = "Fish";
-                Char1speech.text = "Should we take the scenic route there?  Or my shortcut?";
-                Char2name.text = "";
-                Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
 				NextScene1Button.SetActive(true);
-                NextScene2Button.SetActive(true);
+                //NextScene2Button.SetActive(true);
+  
         }
+	
 
 		
 		
@@ -251,30 +251,30 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Crab";
-                Char3speech.text = "I like to pinch all sorts of things!";
+                Char3speech.text = "Fins..  Toes..  Bottlecaps..  Seaweed...";
                 
         }
 		
 		
        else if (primeInt == 31){
+                ArtChar1e.SetActive(false);
+		   ArtChar1b.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Seaweed?  We can do that!";
+                Char3name.text = "";
+                Char3speech.text = "";
+                
+        }
+		
+       else if (primeInt == 32){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Crab";
-                Char3speech.text = "Fins..  Toes..  Bottlecaps..  Seaweed...";
-                
-        }
-		
-       else if (primeInt == 32){
-		   ArtChar1e.SetActive(false);
-		   ArtChar1b.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Fihs";
-                Char2speech.text = "Seaweed?  We can do that!";
-                Char3name.text = "";
-                Char3speech.text = "";
+                Char3speech.text = "How wonderful! I can't wait for your party then!";
                 
         }
 		
@@ -282,7 +282,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Actually, it's probably just about time for the party!";
+                Char2speech.text = "Alright! See you at the party!";
                 Char3name.text = "";
                 Char3speech.text = "";
                 
@@ -290,14 +290,15 @@ public void next(){
         }
 		
        else if (primeInt == 35){
+		   ArtChar2a.SetActive(false);
 				Char1name.text = "Fish";
-                Char1speech.text = "Should we take the scenic route there?  Or my shortcut?";
+                Char1speech.text = "Let's start setting up!!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
 				NextScene1Button.SetActive(true);
-                NextScene2Button.SetActive(true);
+                //NextScene2Button.SetActive(true);
         }
 
       //Please do NOT delete this MOST HOLY bracket that ends the next() function:
@@ -305,10 +306,14 @@ public void next(){
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
         public void Choice1aFunct(){
-                Char1name.text = "";
+                ArtChar2a.SetActive(false);
+		        ArtChar2c.SetActive(true);
+				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "Crab";
+                Char3speech.text = "What?  No pinchy?  Then that's no party at all!";
                 primeInt = 19;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -320,6 +325,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "Crab";
+                Char3speech.text = "I like to pinch all sorts of things!";
                 primeInt = 29;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -328,7 +335,7 @@ public void next(){
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene5b");
+               SceneManager.LoadScene("Scene6");
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene6");
