@@ -313,6 +313,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1132358661725379623, guid: 635176bf157d84a479c572f5c3c3e0ad, type: 3}
   m_PrefabInstance: {fileID: 196965987}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &332604604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6647619764084417051, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &525385364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,6 +1331,8 @@ MonoBehaviour:
   Char1speech: {fileID: 915333330}
   Char2name: {fileID: 558729277}
   Char2speech: {fileID: 951337270}
+  Char3name: {fileID: 332604604}
+  Char3speech: {fileID: 1938669099}
   DialogueDisplay: {fileID: 2131016770}
   ArtChar1a: {fileID: 667032230}
   ArtChar1b: {fileID: 1249639781}
@@ -1707,6 +1720,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897477477}
   m_CullTransparentMesh: 1
+--- !u!114 &1938669099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5517535034283991786, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
+  m_PrefabInstance: {fileID: 6577133201305449094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2061342065
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,19 +2040,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6577133201513071979, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6577133202242608239, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6890551834976271819, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7821099331289584732, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32a556176f9c3e14f8e979fe7ad6d0eb, type: 3}

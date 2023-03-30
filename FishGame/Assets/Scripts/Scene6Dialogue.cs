@@ -11,8 +11,8 @@ public class Scene6Dialogue : MonoBehaviour {
         public Text Char1speech;
         public Text Char2name;
         public Text Char2speech;
-       //public Text Char3name;
-       //public Text Char3speech;
+       public Text Char3name;
+       public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1a;
        public GameObject ArtChar1b;
@@ -63,9 +63,11 @@ public void next(){
                 ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "";
-                Char1speech.text = "*You help set up the party with fish*";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "NARRATOR";
+                Char3speech.text = "*You help set up the party with fish*";
         }
        else if (primeInt ==3){
                 ArtChar1a.SetActive(false);
@@ -74,6 +76,8 @@ public void next(){
                 Char1speech.text = "Well, I am very grateful to you!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
@@ -81,20 +85,26 @@ public void next(){
                 Char1speech.text = "I couldn’t have done this on my own.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 5){
                 Char1name.text = "Fish";
                 Char1speech.text = "To be honest, I didn’t have many friends to begin with.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 6){
                 ArtChar1b.SetActive(false);
 				ArtChar1d.SetActive(true);
 				Char1name.text = "";
-                Char1speech.text = "*You notice Fish becoming emotional*";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "NARRATOR";
+                Char3speech.text = "*You notice Fish becoming emotional*";
         }
        else if (primeInt ==7){
                 ArtChar1d.SetActive(false);
@@ -103,6 +113,8 @@ public void next(){
                 Char1speech.text = "Well...I didn't have any friends actually.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 8){
                 ArtChar1e.SetActive(false);
@@ -111,6 +123,8 @@ public void next(){
                 Char1speech.text = "but with you, I think of you as my best friend.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
@@ -125,6 +139,8 @@ public void next(){
                 Char1speech.text = "I’m overjoyed to see you see me as your best friend too!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 21){
@@ -133,6 +149,8 @@ public void next(){
                 Char1speech.text = "I can’t wait to do even more parties with you!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 22){
@@ -143,22 +161,28 @@ public void next(){
                 Char1speech.text = "Well, let’s get this party kickin shall we?";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 23){
                 //gameHandler.AddPlayerStat(1);
                 ArtChar1c.SetActive(false);
-				Char1name.text = "Fish";
-                Char1speech.text = "*You both finish setting up the party*";
+				Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "NARRATOR";
+                Char3speech.text = "*You both finish setting up the party*";
         }
 		
        else if (primeInt == 24){
                 Char1name.text = "";
-                Char1speech.text = "*Guests begin to arrive.*";
+                Char1speech.text = "";
                 Char2name.text = "";
-                Char2speech.text = "";             
+                Char2speech.text = ""; 
+				Char3name.text = "NARRATOR";
+                Char3speech.text = "*Guests begin to arrive.*";
         }
 
        else if (primeInt == 25){
@@ -167,6 +191,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
 				nextButton.SetActive(false);
                 allowSpace = false;
              SceneManager.LoadScene("End_Win");
@@ -180,6 +206,8 @@ public void next(){
                 Char1speech.text = "Sorry";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 31){
@@ -187,6 +215,8 @@ public void next(){
                 Char1speech.text = " I was just rambling.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 32){
@@ -196,6 +226,8 @@ public void next(){
                 Char1speech.text = "You can ignore what I said!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 33){
@@ -205,6 +237,8 @@ public void next(){
                 Char1speech.text = "I just wanted to make you feel welcomed is all!!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 34){
@@ -214,14 +248,18 @@ public void next(){
                 Char1speech.text = "Let’s finish setting up…";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		
 		else if (primeInt == 35){
                 ArtChar1c.SetActive(false);
 				Char1name.text = "";
-                Char1speech.text = "*You feel like scum.*";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "NARRATOR";
+                Char3speech.text = "*You feel like scum.*";
         }
 		
        else if (primeInt == 36){
@@ -229,6 +267,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
 				nextButton.SetActive(false);
                 allowSpace = false;
              SceneManager.LoadScene("End_Win");
@@ -243,6 +283,8 @@ public void next(){
                 Char1speech.text = "Oh, well gee!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
                 primeInt = 19;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -256,6 +298,8 @@ public void next(){
                 Char1speech.text = "R-right!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
                 primeInt = 29;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -264,7 +308,7 @@ public void next(){
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene("End_Win");
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene2b");
