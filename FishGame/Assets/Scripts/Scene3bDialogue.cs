@@ -73,8 +73,8 @@ public void next(){
         else if (primeInt == 2){
                ArtChar2a.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "You find a hook with a lil worm on it.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*You find a hook with a lil worm on it.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -184,8 +184,8 @@ public void next(){
        else if (primeInt == 400){
 		   ArtChar2a.SetActive(false);
 		   ArtChar1b.SetActive(false);
-                Char1name.text = "";
-                Char1speech.text = "The moment Fish touches the hook, he’s flung up and out of water.  He’s gone.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*The moment Fish touches the hook, he’s flung up and out of water. He’s gone.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -230,8 +230,8 @@ public void next(){
         public void Choice1bFunct(){
 			ArtChar1d.SetActive(false);
 			ArtChar2a.SetActive(false);
-                Char1name.text = "";
-                Char1speech.text = "The moment Fish touches the hook, he’s flung up and out of water.  He’s gone.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*The moment Fish touches the hook, he’s flung up and out of water. He’s gone.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -248,7 +248,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Oh god really?  Yucky";
+                Char2speech.text = "Oh god really? Yucky...";
 				Char3name.text = "";
                 Char3speech.text = "";
                 primeInt = 299;

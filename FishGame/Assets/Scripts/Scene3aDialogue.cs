@@ -82,8 +82,8 @@ public void next(){
         else if (primeInt == 2){
                ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "You approach the cave...  It’s quiet...";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*You approach the cave...  It’s quiet...*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -92,25 +92,25 @@ public void next(){
        else if (primeInt ==3){
 		       ArtChar1a.SetActive(false);
 		       ArtChar1d.SetActive(true);
-                Char1name.text = "Fish";
-                Char1speech.text = "ANYONE WANNA COME TO MY PARTY?!";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "ANYONE WANNA COME TO MY PARTY?!";
 	            Char3name.text = "";
                 Char3speech.text = "";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-                Char1name.text = "";
-                Char1speech.text = "Fish’s voice echoes throughout the cave.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*Fish’s voice echoes throughout the cave.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
         }
        else if (primeInt == 5){
-                Char1name.text = "";
-                Char1speech.text = "The echoes come to a stop.  No reply.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*The echoes come to a stop. No reply.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -137,8 +137,8 @@ public void next(){
         }
 		else if (primeInt ==8){
 		       ArtChar2a.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "oH fUCc it's a  S H A R K";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*oH fUCc it's a  S H A R K*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -211,7 +211,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Alrighty!  Where to next?";
+                Char2speech.text = "Alrighty!  Where to next? There's a shipwreck and the harbor!";
 				Char3name.text = "";
                 Char3speech.text = "";
                 nextButton.SetActive(false);
@@ -259,7 +259,7 @@ else if (primeInt == 300){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Alrighty!  Where to next?";
+                Char2speech.text = "Alrighty!  Where to next? There's a shipwreck and the harbor!";
 				Char3name.text = "";
                 Char3speech.text = "";
                 nextButton.SetActive(false);
@@ -303,7 +303,7 @@ else if (primeInt == 400){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Alrighty!  Where to next?";
+                Char2speech.text = "Alrighty!  Where to next? There's a shipwreck and the harbor!";
 				Char3name.text = "";
                 Char3speech.text = "";
                 nextButton.SetActive(false);
@@ -364,7 +364,7 @@ else if (primeInt == 400){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "AAAAAAAAAAAAAAAAA";
+                Char2speech.text = "AAAAAAAAAAAAAAAAA. QUICK! THE SHIPWRECK OR HARBOR?!?!?";
 				Char3name.text = "";
                 Char3speech.text = "";
                 primeInt = 399;
