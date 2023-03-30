@@ -140,7 +140,7 @@ public void next(){
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
                 Char1name.text = "Fish";
-                Char1speech.text = "Okay, where should we look first?";
+                Char1speech.text = "Okay, where should we look first? Coral reefs or the anemone?";
                 // Char2name.text = "";
                 // Char2speech.text = "";
 				    nextButton.SetActive(false);
@@ -181,7 +181,7 @@ public void next(){
 
       else if (primeInt == 300){
                 Char1name.text = "Fish";
-                Char1speech.text = "Yay! So glad you changed your mind."; 
+                Char1speech.text = "Yay! So glad you changed your mind. So where to? Coral reefs or the anemone?"; 
                 // Char2name.text = "";
                 // Char2speech.text = "";
 				    nextButton.SetActive(false);
@@ -256,8 +256,8 @@ public void next(){
         }
 		
        else if (primeInt == 503){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "Fish";
+                Char1speech.text = "Coral reefs or the anemone?";
                 // Char2name.text = "";
                 // Char2speech.text = ";
 				    nextButton.SetActive(false);
