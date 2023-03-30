@@ -83,8 +83,8 @@ public void next(){
         else if (primeInt == 2){
 			   ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "You've arrived at the coral. It's beautiful. But there don't seem to be any fish aroun-";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*You've arrived at the coral. It's beautiful. But there don't seem to be any fish aroun-*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";

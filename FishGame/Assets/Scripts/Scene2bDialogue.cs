@@ -103,8 +103,8 @@ public void next(){
         }
        else if (primeInt == 5){
 		   ArtChar2a.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "A clownfish timidly emerges from the anemone...";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*A clownfish timidly emerges from the anemone...*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -152,18 +152,10 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text ="Clownfish";
-				Char3speech.text = "Really??";
-        }
-       else if (primeInt == 101){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "Clownfish";
 				Char3speech.text = "You think I would make the party more merry?";
-
-		}
-       else if (primeInt == 102){
+        }
+ 
+       else if (primeInt == 101){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -171,7 +163,7 @@ public void next(){
 				Char3name.text = "Clownfish";
 				Char3speech.text = "Of course I'll be there!";
         }
-       else if (primeInt == 103){
+       else if (primeInt == 102){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
@@ -179,11 +171,11 @@ public void next(){
 				Char3name.text = "";
 				Char3speech.text = "";
 	   }		
-		else if (primeInt == 104){
+		else if (primeInt == 103){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Fish";
-                Char2speech.text = "Where should we go next?";
+                Char2speech.text = "Where should we go next? I see something shiny over there! And a cave!";
 				Char3name.text = "";
 				Char3speech.text = "";
                 nextButton.SetActive(false);
@@ -195,40 +187,31 @@ public void next(){
 	 
 	 // ENCOUNTER AFTER CHOICE #2
 
-       else if (primeInt == 200){
-		   ArtChar2c.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "Clownfish";
-				Char3speech.text = "You think I'm a joke..  Just like everybody else..";
-        }
 		
-		       else if (primeInt == 201){
+		       else if (primeInt == 200){
 			ArtChar2a.SetActive(false);
 			ArtChar2c.SetActive(false);
-                Char1name.text = "";
-                Char1speech.text = "The clownfish solomly swimms back into the anemone.";
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*The clownfish solomly swimms back into the anemone.*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 	
 	}		
-       else if (primeInt == 202){
-                Char1name.text = "YOU";
-                Char1speech.text = "Guess he's not much of a party animal..";
+       else if (primeInt == 201){
+                Char1name.text = "NARRATOR";
+                Char1speech.text = "*Guess he's not much of a party animal..*";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 	   }		
-		else if (primeInt == 203){
+		else if (primeInt == 202){
                 Char1name.text = "";
-                Char1speech.text = "Come on, let's go check out";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Fish";
+                Char2speech.text = "Come on, let's go check out that shiny thing or the cave!";
 				Char3name.text = "";
 				Char3speech.text = "";
                 nextButton.SetActive(false);
@@ -244,8 +227,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
+				Char3name.text = "Clownfish";
+				Char3speech.text = "Really??";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -257,8 +240,8 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
+				Char3name.text = "Clownfish";
+				Char3speech.text = "You think I'm a joke..  Just like everybody else..";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
