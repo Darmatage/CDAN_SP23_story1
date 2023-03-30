@@ -159,7 +159,7 @@ public void next(){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Dolphin";
-                Char2speech.text = "Y’know I could teach you these tricks if you’d like…";
+                Char2speech.text = "Y’know...I could teach you some tricks...";
 				Char3name.text = "";
                 Char3speech.text = "";
 
